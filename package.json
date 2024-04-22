@@ -1,0 +1,23 @@
+{
+  "name": "miapp",
+  "version": "1.0.0",
+  "description": "Inicio Proyecto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Holaaaaaaaaaaaaaaaa\" && exit 1",
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Dario",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  },
+  "dependencies": {
+    "knex": "^2.5.1"
+  },
+  "engines":{
+    "node":"14.0.0"
+  }
+}
